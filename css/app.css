@@ -548,6 +548,8 @@ h6 {
         background: #cd6302;
     }
 }
+
+/*disable big form on small screend*/
 @media (max-width:981px) {
     .it-up {
         display: none;
@@ -556,6 +558,13 @@ h6 {
         display: none;
     }
     .nomargin-bottom {
+        display: none;
+    }
+}
+
+/**/
+@media (min-width:980px) {
+    #hire {
         display: none;
     }
 }
