@@ -626,6 +626,9 @@ h6 {
     .nomargin-bottom {
         display: none;
     }
+    .medianew {
+        font-size: 40px;
+    }
 }
 
 /**/
