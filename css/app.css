@@ -298,6 +298,10 @@ h6 {
     .it-up {
         display: none;
     }
+    .iconin {
+        margin 0;
+        display: none;
+    }
 }
 .border {
     display: block;
@@ -393,10 +397,10 @@ h6 {
 .b {
     height:200px;
 }
-.icon {
+.iconin {
     width: 7%;
     height: 7%;
-    float: right;
+    margin-left: 550px;
 }
 
 /*small & medium screen form*/
