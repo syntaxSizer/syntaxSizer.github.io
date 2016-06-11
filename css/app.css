@@ -94,7 +94,7 @@ body {
     font-size: 62.5%;
 }
 .msg {
-    height: 50%;
+    height: 18%;
     overflow: hidden;
 }
 h6 {
@@ -377,7 +377,7 @@ h6 {
 }
 .medianew {
     list-style: none;
-    font-size: 60px;
+    font-size: 50px;
 }
 .medianew a {
     transition: 1s;
@@ -412,7 +412,6 @@ h6 {
     body section {
         background: white;
         margin: 60px auto 120px;
-        border-top: 15px solid #313A3D;
         text-align: center;
         padding: 50px 0 110px;
         width: 80%;
@@ -422,18 +421,18 @@ h6 {
         margin-bottom: 40px;
         font-size: 4em;
         text-transform: uppercase;
-        font-family: 'Lato',
-        sans-serif;
+        font-family: 'Raleway Sans',
+        Lato;
         font-weight: 100;
     }
     form {
-        width: 58.33333%;
+        /*        width: 58.33333%;*/
         margin: 0 auto;
     }
     form .field {
         width: 100%;
         position: relative;
-        margin-bottom: 15px;
+        /*        margin-bottom: 15px;*/
     }
     form .field label {
         text-transform: uppercase;
@@ -472,11 +471,11 @@ h6 {
     form .field textarea {
         border: none;
         background: #E8E9EA;
-        width: 80.5%;
+        /*        width: 80.5%;*/
         margin: 0;
         padding: 18px 0;
-        padding-left: 19.5%;
-        color: #fff;
+        /*        padding-left: 19.5%;*/
+        color: #1B1B1B;
         font-size: 1.4em;
         letter-spacing: 0.05em;
         text-transform: uppercase;
@@ -513,7 +512,7 @@ h6 {
     }
     form .field input[type="text"].focused + label,
     form .field textarea.focused + label {
-        color: green;
+        color:#1B1B1B;
     }
     form .field:hover label {
         width: 18%;
