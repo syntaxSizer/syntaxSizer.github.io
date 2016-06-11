@@ -259,7 +259,7 @@
                 <div class="column small-12  large-6">
 
                     <span class="input input--haruki">
-					<input class="input__field input__field--haruki" type="text" id="input-1" required />
+					<input class="input__field input__field--haruki" name="name" type="text" id="input-1" required />
 					<label class="input__label input__label--haruki" for="input-1">
 						<span class="input__label-content input__label-content--haruki"> NAME</span>
                     </label>
@@ -268,7 +268,7 @@
 
                 <div class="column small-12  large-6">
                     <span class="input input--haruki">
-					<input class="input__field input__field--haruki" type="text" id="input-3" required />
+					<input class="input__field input__field--haruki" name="email" type="text" id="input-3" required />
 					<label class="input__label input__label--haruki" for="input-3">
 
 						<span class="input__label-content input__label-content--haruki text-">EMAIL</span>
@@ -282,14 +282,14 @@
     <div class="row message">
         <div class="column small-12 medium-8 small-centered  large-6">
             <span class="input input--haruki">
-        <textarea class="input__field msg input__field--haruki" type="text" id="input-2" row="5" ></textarea>
+        <textarea class="input__field msg input__field--haruki" name="message" type="text" id="input-2" row="5" ></textarea>
 					<label class="input__label input__label--haruki" for="input-2">
 						<span class="input__label-content input__label-content--haruki">MESSAGE</span>
             </label>
             </span>
 
 
-            <button class="small-centered column button button--nina button--text-thick button--text-upper button--size-s" data-text="Send Mail">
+            <button class="small-centered  column button button--nina button--text-thick button--text-upper button--size-s" name="submit " data-text="Send Mail">
                 <span>S</span><span>e</span><span>n</span><span>d</span> <span>M</span><span>a</span><span>i</span><span>l</span>
             </button>
 
@@ -336,14 +336,14 @@
                 <div class="sps">&nbsp;</div>
                 <div class="sps">&nbsp;</div>
                 <div class="sps">&nbsp;</div>
-                <textarea id="msg" rows="4" placeholder=" Your message" /></textarea>
+                <textarea id="msg" name="message" rows="4" placeholder=" Your message" /></textarea>
 
                 <span class="ss-icon">&nbsp;</span>
             </div>
 
             <!--            <input class="button" type="submit" value="Send" />-->
 
-            <button class="small-centered column button button--nina button--text-thick button--text-upper button--size-s" data-text="Send Mail">
+            <button class="small-centered column button  button--nina button--text-thick button--text-upper button--size-s" name="submit " data-text="Send Mail">
                 <span>S</span><span>e</span><span>n</span><span>d</span> <span>M</span><span>a</span><span>i</span><span>l</span>
             </button>
         </form>
