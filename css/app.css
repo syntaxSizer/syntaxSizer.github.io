@@ -68,8 +68,6 @@ body {
 .cd-intro {
     margin-left: 0;
 }
-
-}
 .abt {
     background-color: #181A1B;
     margin-top: 210px;
@@ -109,6 +107,7 @@ h6 {
     /*Class name*/
     .yay {
         /*properties*/
+        
         font-size: 35px;
         margin-top: 250px;
         font-weight: 900;
@@ -120,14 +119,43 @@ h6 {
     /*Class name*/
     .yay {
         /*properties*/
+        
         font-size: 70px;
         margin-top: 270px;
         font-weight: 800;
     }
+    .square-rotate {
+        position: relative;
+        width: 18em;
+        height: 10em;
+        overflow: hidden;
+        margin-left: 38%;
+        margin-top: 20%;
+        content: "";
+        background-image: url(../images/bg.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        /* Rotate */
+        
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        /* Rotate Origin */
+        
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+    }
 }
 
 /*big screen*/
-@media (min-width: 980px) {
+@media (min-width: 981px) {
     .yay {
         font-size: 90px;
         margin-top: 70px;
@@ -172,7 +200,7 @@ h6 {
 }
 
 /*small screen navbar*/
-@media (max-width:980px) {
+@media (max-width:979px) {
     #container {
         z-index: 111;
     }
@@ -288,6 +316,7 @@ h6 {
     }
     p {
         /*properties*/
+        
         font-size: 20px;
         font-weight: 400;
     }
@@ -302,6 +331,34 @@ h6 {
         margin 0;
         display: none;
     }
+    .square-rotate {
+        position: relative;
+        width: 18em;
+        height: 10em;
+        overflow: hidden;
+        margin-left: 38%;
+        margin-top: 28%;
+        content: "";
+        background-image: url(../images/bg.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        /* Rotate */
+        
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        /* Rotate Origin */
+        
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+    }
 }
 .border {
     display: block;
@@ -313,33 +370,34 @@ h6 {
 }
 
 /*animated text*/
-@media (min-width:980px) {
+@media (min-width:981px) {
     .hidden {
-        opacity:0;
+        opacity: 0;
     }
     .console-container {
-        font-family:"Raleway Sans",
-        Roboto;
-        font-size:90px;
+        font-family: "Raleway Sans", Roboto;
+        font-size: 90px;
         /*    text-align:center;*/
-        height:12px;
-        width:1080px;
-        display:block;
+        
+        height: 12px;
+        width: 1080px;
+        display: block;
         /*    position:absolute;*/
-        color:#444444;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:12px;
+        
+        color: #444444;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: 12px;
         line-height: 90px;
         font-weight: 600;
     }
     .console-underscore {
-        display:inline-block;
-        position:relative;
-        top:-0.14em;
-        left:10px;
+        display: inline-block;
+        position: relative;
+        top: -0.14em;
+        left: 10px;
         color: darkgrey;
     }
 }
@@ -347,30 +405,32 @@ h6 {
 /*medium size screen text animation*/
 @media (max-width:979px) {
     .hidden {
-        opacity:0;
+        opacity: 0;
     }
     .console-container {
-        font-family:Roboto;
-        font-size:60px;
+        font-family: Roboto;
+        font-size: 60px;
         /*    text-align:center;*/
-        height:12px;
-        width:auto;
-        display:block;
+        
+        height: 12px;
+        width: auto;
+        display: block;
         /*    position:absolute;*/
-        color:#444444;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:12px;
+        
+        color: #444444;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: 12px;
         line-height: 90px;
         font-weight: 600;
     }
     .console-underscore {
-        display:inline-block;
-        position:relative;
-        top:-0.14em;
-        left:10px;
+        display: inline-block;
+        position: relative;
+        top: -0.14em;
+        left: 10px;
         color: darkgrey;
     }
 }
@@ -408,14 +468,15 @@ h6 {
     body {
         background: #efefef;
         font-size: 62.5%;
-        font-family: 'Lato',
-        sans-serif;
+        font-family: 'Raleway Sans', Roboto, Lato, 'sans-serif';
         font-weight: 300;
         color: #B6B6B6;
     }
     body section {
-        background: white;
-        margin: 60px auto 120px;
+        background: #fff;
+        /*        margin: 60px auto 120px;*/
+        
+        margin: 0 auto;
         text-align: center;
         padding: 50px 0 110px;
         width: 80%;
@@ -423,14 +484,15 @@ h6 {
     }
     body section h1 {
         margin-bottom: 40px;
-        font-size: 4em;
+        /*        font-size: 4em;*/
+        
         text-transform: uppercase;
-        font-family: 'Raleway Sans',
-        Lato;
+        font-family: 'Raleway Sans', Roboto, Lato;
         font-weight: 100;
     }
     form {
         /*        width: 58.33333%;*/
+        
         margin: 0 auto;
     }
     form .field {
@@ -463,7 +525,7 @@ h6 {
         position: absolute;
         top: 12px;
         left: 7%;
-        font-size: 2.5em;
+        font-size: 1.45em;
         text-shadow: 1px 2px 0 #F74A4A;
         -webkit-transition: all 333ms ease-in-out;
         -moz-transition: all 333ms ease-in-out;
@@ -476,9 +538,11 @@ h6 {
         border: none;
         background: #E8E9EA;
         /*        width: 80.5%;*/
+        
         margin: 0;
         padding: 18px 0;
         /*        padding-left: 19.5%;*/
+        
         color: #1B1B1B;
         font-size: 1.4em;
         letter-spacing: 0.05em;
@@ -511,17 +575,17 @@ h6 {
     form .field textarea:focus + label,
     form .field textarea.focused + label {
         width: 18%;
-        background:#F74A4A;
+        background: #F74A4A;
         color: #fff;
     }
     form .field input[type="text"].focused + label,
     form .field textarea.focused + label {
-        color:#1B1B1B;
+        color: #1B1B1B;
     }
     form .field:hover label {
         width: 18%;
         background: #1B1B1B;
-        color: white;
+        color: #fff;
     }
     form input[type="submit"] {
         background: #FD9638;
@@ -533,8 +597,7 @@ h6 {
         padding: 13px 50px;
         font-size: 1.4em;
         letter-spacing: 0.1em;
-        font-family: 'Lato',
-        sans-serif;
+        font-family: 'Raleway Sans';
         font-weight: 300;
         -webkit-transition: all 333ms ease-in-out;
         -moz-transition: all 333ms ease-in-out;
