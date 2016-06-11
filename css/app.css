@@ -631,7 +631,7 @@ h6 {
     }
 }
 
-/**/
+/*disable small screen form form displaying on big screen*/
 @media (min-width:980px) {
     #hire {
         display: none;
