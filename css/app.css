@@ -552,6 +552,7 @@ h6 {
     form .field textarea#msg {
         height: 18px;
         resize: none;
+        overflow: hidden;
         -webkit-transition: all 333ms ease-in-out;
         -moz-transition: all 333ms ease-in-out;
         -o-transition: all 333ms ease-in-out;
