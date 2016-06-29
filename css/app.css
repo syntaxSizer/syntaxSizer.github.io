@@ -54,12 +54,6 @@ footer h3 {
     padding: 200px;
     padding-bottom: 15px;
 }
-
-/*
-body {
-    font-family: 'Open Sans';
-}
-*/
 .row {
     margin: 0;
     padding: 0;
@@ -88,7 +82,7 @@ body {
 }
 body {
     font-family: 'Raleway Sans';
-    color: #000000;
+    color: #000;
     font-size: 62.5%;
 }
 .msg {
@@ -108,6 +102,7 @@ h6 {
     .yay {
         /*properties*/
         
+        color: #000;
         font-size: 35px;
         margin-top: 250px;
         font-weight: 900;
@@ -120,6 +115,7 @@ h6 {
     .yay {
         /*properties*/
         
+        color: #000;
         font-size: 70px;
         margin-top: 270px;
         font-weight: 800;
@@ -157,6 +153,7 @@ h6 {
 /*big screen*/
 @media (min-width: 981px) {
     .yay {
+        color: #000;
         font-size: 90px;
         margin-top: 70px;
         line-height: 90px;
@@ -469,7 +466,8 @@ h6 {
 /*small & medium screen form*/
 @media (max-width:980px) {
     body {
-        background: #efefef;
+        /*        background: #efefef;*/
+        
         font-size: 62.5%;
         font-family: 'Raleway Sans', Roboto, Lato, 'sans-serif';
         font-weight: 300;

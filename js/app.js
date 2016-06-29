@@ -52,7 +52,7 @@
 	//animated text
 
 	// function([string1, string2],target id,[color1,color2])
-	consoleText(['code cool websites.', 'build trendy mobile apps', 'enjoy learning.', 'read in spare time', 'like everything zombie related'], 'text', ['#444444', '#444444', '#444444']);
+	consoleText(['code cool websites.', 'build trendy mobile apps', 'enjoy learning.', 'read in spare time', 'like everything zombie related'], 'text', ['#000', '#000', '#000']);
 
 	function consoleText(words, id, colors) {
 	    if (colors === undefined) colors = ['#444444'];
