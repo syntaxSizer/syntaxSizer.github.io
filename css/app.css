@@ -712,3 +712,7 @@ h6 {
         /*    transform-origin: 0 100%;*/
     }
 }
+
+.additional-space {
+    height: 41px;
+}
