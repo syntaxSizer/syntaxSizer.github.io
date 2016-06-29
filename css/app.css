@@ -176,15 +176,15 @@ h6 {
 }
 .square-rotate {
     position: relative;
-    background-color: red;
+    /*    background-color: red;*/
     width: 20em;
     height: 13em;
     overflow: hidden;
     margin-left: 25%;
-    margin-top: 11%;
+    margin-top: 7%;
     content: "";
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    /*    border-top-left-radius: 50%;*/
+    /*    border-bottom-right-radius: 50%;*/
     /*    background-image: url(../images/bg1.jpg);*/
     /*
     background-size: contain;
@@ -354,9 +354,9 @@ h6 {
     .square-rotate {
         position: relative;
         width: 28em;
-        height: 18em;
+        height: 23em;
         overflow: hidden;
-        margin-left: 15%;
+        margin-left: 29%;
         margin-top: 10%;
         content: "";
         /*
@@ -675,15 +675,16 @@ h6 {
 @media (max-width:768px) {
     .square-rotate {
         position: relative;
-        background-color: red;
-        width: 25em;
-        height: 16em;
+        /*        background-color: red;*/
+        /*        width: 25em;*/
+        
+        height: 20em;
         overflow: hidden;
-        margin-left: 8%;
+        margin-left: 8.8%;
         margin-top: 11%;
         content: "";
-        border-top-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        /*        border-top-left-radius: 50%;*/
+        /*        border-bottom-right-radius: 50%;*/
         /*    background-image: url(../images/bg1.jpg);*/
         /*
     background-size: contain;
