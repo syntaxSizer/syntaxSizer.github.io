@@ -131,7 +131,8 @@ h6 {
     }
     .square-rotate {
         position: relative;
-        width: 18em;
+        /*        width: 18em;*/
+        
         height: 10em;
         overflow: hidden;
         margin-left: 38%;
@@ -670,4 +671,41 @@ h6 {
 }
 .dev {
     color: #fff;
+}
+@media (max-width:768px) {
+    .square-rotate {
+        position: relative;
+        background-color: red;
+        width: 25em;
+        height: 16em;
+        overflow: hidden;
+        margin-left: 8%;
+        margin-top: 11%;
+        content: "";
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        /*    background-image: url(../images/bg1.jpg);*/
+        /*
+    background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ position: absolute;
+*/
+        /* Rotate */
+        /*
+    -webkit-transform: rotate(-45deg);
+ -moz-transform: rotate(-45deg);
+ -ms-transform: rotate(-45deg);
+ -o-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+*/
+        /* Rotate Origin */
+        /*
+    -webkit-transform-origin: 0 100%;
+ -moz-transform-origin: 0 100%;
+ -ms-transform-origin: 0 100%;
+ -o-transform-origin: 0 100%;
+*/
+        /*    transform-origin: 0 100%;*/
+    }
 }
