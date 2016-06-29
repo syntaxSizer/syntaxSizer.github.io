@@ -119,14 +119,14 @@ h6 {
 }
 
 /*medium screen text*/
-@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+@media only screen and (min-device-width:767px) and (max-device-width:1024px) {
     /*Class name*/
     .yay {
         /*properties*/
         
         color: #000;
         font-size: 70px;
-        margin-top: 270px;
+        margin-top: 150px;
         font-weight: 800;
     }
     .square-rotate {
@@ -163,6 +163,33 @@ h6 {
  -o-transform-origin: 0 100%;
  transform-origin: 0 100%;
 */
+    }
+    .console-container {
+        font-family: "Raleway Sans", Roboto;
+        font-size: 140px;
+        /*    text-align:center;*/
+        
+        height: 12px;
+        width: 1080px;
+        display: block;
+        /*    position:absolute;*/
+        /*        color: #444444;*/
+        
+        color: #000;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: 12px;
+        line-height: 90px;
+        font-weight: 600;
+    }
+    .console-underscore {
+        display: inline-block;
+        position: relative;
+        top: -0.14em;
+        left: 10px;
+        color: darkgrey;
     }
 }
 
@@ -685,34 +712,39 @@ h6 {
         margin-left: 8.8%;
         margin-top: 11%;
         content: "";
-        /*        border-top-left-radius: 50%;*/
-        /*        border-bottom-right-radius: 50%;*/
-        /*    background-image: url(../images/bg1.jpg);*/
-        /*
-    background-size: contain;
- background-repeat: no-repeat;
- background-position: center;
- position: absolute;
-*/
-        /* Rotate */
-        /*
-    -webkit-transform: rotate(-45deg);
- -moz-transform: rotate(-45deg);
- -ms-transform: rotate(-45deg);
- -o-transform: rotate(-45deg);
- transform: rotate(-45deg);
-*/
-        /* Rotate Origin */
-        /*
-    -webkit-transform-origin: 0 100%;
- -moz-transform-origin: 0 100%;
- -ms-transform-origin: 0 100%;
- -o-transform-origin: 0 100%;
-*/
-        /*    transform-origin: 0 100%;*/
+    }
+    .yay {
+        font-size: 20px;
+        /*font-weight: 400;*/
+    }
+    .console-container {
+        font-family: Roboto;
+        font-size: 20px;
+        /*    text-align:center;*/
+        /*        height: 12px;*/
+        
+        width: auto;
+        display: block;
+        /*    position:absolute;*/
+        /*        color: #444444;*/
+        
+        color: #000;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: 12px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+    .console-underscore {
+        display: inline-block;
+        position: relative;
+        top: -0.14em;
+        left: 10px;
+        color: darkgrey;
     }
 }
-
 .additional-space {
     height: 41px;
 }
