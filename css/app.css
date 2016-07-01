@@ -1234,3 +1234,13 @@ h6 {
     -webkit-transform: translate3d(0, 0.5em, 0);
     transform: translate3d(0, 0.5em, 0);
 }
+
+/*portflio*/
+.grid {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 1em;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
