@@ -1358,3 +1358,11 @@ figure.effect-milo:hover p {
     font-size: 68.5%;
     color: #fff;
 }
+@media (max-width:767px) {
+    .border p {
+        font-size: 12px;
+    }
+    .bgb {
+        margin-top: -5px;
+    }
+}
