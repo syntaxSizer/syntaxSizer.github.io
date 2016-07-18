@@ -1369,3 +1369,10 @@ figure.effect-milo:hover p {
 .headofportfolio {
     color: #fff;
 }
+.listAndroid {
+    list-style: none;
+}
+.listAndroid li {
+    padding: 33px;
+    display: inline-block;
+}
