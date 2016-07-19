@@ -110,8 +110,8 @@ h6 {
     /*Class name*/
     .yay {
         /*properties*/
+        
         font-family: Bilbo;
- 
         color: #000;
         font-size: 35px;
         margin-top: 250px;
@@ -125,8 +125,8 @@ h6 {
     /*Class name*/
     .yay {
         /*properties*/
-     font-family: Bilbo;
-
+        
+        font-family: Bilbo;
         color: #000;
         font-size: 70px;
         margin-top: 150px;
@@ -168,8 +168,8 @@ h6 {
  transform-origin: 0 100%;
 */
     }
- .console-container{
-   font-family: Bilbo;
+    .console-container {
+        font-family: Bilbo;
         font-size: 140px;
         /*    text-align:center;*/
         
@@ -200,8 +200,7 @@ h6 {
 /*big screen*/
 @media (min-width: 981px) {
     .yay {
-           font-family: Bilbo;
-
+        font-family: Bilbo;
         color: #000;
         font-size: 90px;
         margin-top: 70px;
@@ -435,7 +434,7 @@ h6 {
         opacity: 0;
     }
     .console-container {
-       font-family: Bilbo;
+        font-family: Bilbo;
         font-size: 90px;
         /*    text-align:center;*/
         
@@ -508,7 +507,7 @@ h6 {
 }
 .medianew a {
     transition: 1s;
-    color: #1B1B1B;
+    color: #Fff;
 }
 .medianew li {
     display: inline-block;
@@ -721,10 +720,10 @@ h6 {
         content: "";
     }
     .yay {
-          font-family: Bilbo;
-
+        font-family: Bilbo;
         font-size: 20px;
         /*font-weight: 400;*/
+        
         text-align: center;
     }
     .console-container {
@@ -1386,10 +1385,10 @@ figure.effect-milo:hover p {
     padding: 33px;
     display: inline-block;
 }
-
-
-
 #text {
-    
     font-family: Bilbo;
+}
+footer {
+    background-color: #17191A;
+    color: #fff;
 }
