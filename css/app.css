@@ -110,7 +110,8 @@ h6 {
     /*Class name*/
     .yay {
         /*properties*/
-        font-family:Italianno; 
+        font-family: Bilbo;
+ 
         color: #000;
         font-size: 35px;
         margin-top: 250px;
@@ -124,7 +125,8 @@ h6 {
     /*Class name*/
     .yay {
         /*properties*/
-        font-family:Italianno;
+     font-family: Bilbo;
+
         color: #000;
         font-size: 70px;
         margin-top: 150px;
@@ -167,7 +169,7 @@ h6 {
 */
     }
  .console-container{
-     font-family:Italianno, "Raleway Sans", Roboto;
+   font-family: Bilbo;
         font-size: 140px;
         /*    text-align:center;*/
         
@@ -198,7 +200,8 @@ h6 {
 /*big screen*/
 @media (min-width: 981px) {
     .yay {
-        font-family:Italianno;
+           font-family: Bilbo;
+
         color: #000;
         font-size: 90px;
         margin-top: 70px;
@@ -432,7 +435,7 @@ h6 {
         opacity: 0;
     }
     .console-container {
-        font-family: "Raleway Sans", Roboto;
+       font-family: Bilbo;
         font-size: 90px;
         /*    text-align:center;*/
         
@@ -466,7 +469,7 @@ h6 {
         opacity: 0;
     }
     .console-container {
-        font-family: Roboto;
+        font-family: Bilbo;
         font-size: 60px;
         /*    text-align:center;*/
         
@@ -718,13 +721,14 @@ h6 {
         content: "";
     }
     .yay {
-        font-family:Italianno;
+          font-family: Bilbo;
+
         font-size: 20px;
         /*font-weight: 400;*/
         text-align: center;
     }
     .console-container {
-        font-family: Roboto;
+        font-family: Bilbo;
         font-size: 20px;
         /*    text-align:center;*/
         /*        height: 12px;*/
@@ -1381,4 +1385,11 @@ figure.effect-milo:hover p {
 .listAndroid li {
     padding: 33px;
     display: inline-block;
+}
+
+
+
+#text {
+    
+    font-family: Bilbo;
 }
