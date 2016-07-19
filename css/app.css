@@ -110,11 +110,12 @@ h6 {
     /*Class name*/
     .yay {
         /*properties*/
-        
+        font-family:Italianno; 
         color: #000;
         font-size: 35px;
         margin-top: 250px;
         font-weight: 900;
+        text-align: center;
     }
 }
 
@@ -123,11 +124,12 @@ h6 {
     /*Class name*/
     .yay {
         /*properties*/
-        
+        font-family:Italianno;
         color: #000;
         font-size: 70px;
         margin-top: 150px;
         font-weight: 800;
+        text-align: center;
     }
     .square-rotate {
         position: relative;
@@ -164,8 +166,8 @@ h6 {
  transform-origin: 0 100%;
 */
     }
-    .console-container {
-        font-family: "Raleway Sans", Roboto;
+ .console-container{
+     font-family:Italianno, "Raleway Sans", Roboto;
         font-size: 140px;
         /*    text-align:center;*/
         
@@ -196,11 +198,13 @@ h6 {
 /*big screen*/
 @media (min-width: 981px) {
     .yay {
+        font-family:Italianno;
         color: #000;
         font-size: 90px;
         margin-top: 70px;
         line-height: 90px;
         font-weight: 800;
+        text-align: center;
     }
 }
 .square-rotate {
@@ -714,8 +718,10 @@ h6 {
         content: "";
     }
     .yay {
+        font-family:Italianno;
         font-size: 20px;
         /*font-weight: 400;*/
+        text-align: center;
     }
     .console-container {
         font-family: Roboto;
