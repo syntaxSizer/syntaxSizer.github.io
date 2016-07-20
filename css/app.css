@@ -695,6 +695,18 @@ h6 {
     .medianew {
         font-size: 40px;
     }
+    #text {
+        display: none;
+    }
+    #I {
+        display: none;
+    }
+    .console-underscore {
+        display: none;
+    }
+    #console {
+        display: none;
+    }
 }
 
 /*disable small screen form form displaying on big screen*/
@@ -722,14 +734,12 @@ h6 {
         content: "";
     }
     .yay {
-        
         font-family: Bilbo;
         font-size: 20px;
         /*font-weight: 400;*/
         
         text-align: center;
     }
-
     .console-container {
         font-family: Bilbo;
         font-size: 20px;
@@ -1073,7 +1083,7 @@ h6 {
     transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 .button--nina:hover {
-    background-color:#F74A4A;
+    background-color: #F74A4A;
 }
 .button--nina:hover::before {
     opacity: 0;
@@ -1391,7 +1401,6 @@ figure.effect-milo:hover p {
 }
 #text {
     font-family: Bilbo;
-
 }
 footer {
     background-color: #17191A;
@@ -1410,5 +1419,3 @@ footer {
     margin-top: 90px;
 }
 */
-
-
