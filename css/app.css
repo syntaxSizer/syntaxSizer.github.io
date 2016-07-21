@@ -709,7 +709,7 @@ h6 {
     }
 }
 
-/*disable small screen form form displaying on big screen*/
+/*disable small screen form displaying on big screen*/
 @media (min-width:980px) {
     #hire {
         display: none;
@@ -1432,4 +1432,7 @@ img {
 }
 .android a:hover {
     color: #F37F7FW;
+}
+.portfolio_header {
+    margin-top: 39px;
 }
