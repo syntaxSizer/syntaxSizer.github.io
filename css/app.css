@@ -1426,3 +1426,9 @@ img {
     display: block;
     margin: 15px auto;
 }
+.android a {
+    color: #F75656;
+}
+.android a:hover {
+    color: #F37F7F;
+}
