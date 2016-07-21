@@ -1419,3 +1419,10 @@ footer {
     margin-top: 90px;
 }
 */
+.android {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 15px auto;
+}
