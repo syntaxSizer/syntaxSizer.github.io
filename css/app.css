@@ -1421,6 +1421,7 @@ footer {
 */
 .android {
     text-align: center;
+    font-family: Roboto;
 }
 img {
     display: block;
@@ -1430,5 +1431,5 @@ img {
     color: #F75656;
 }
 .android a:hover {
-    color: #F37F7F;
+    color: #F37F7FW;
 }
