@@ -422,8 +422,10 @@ h6 {
     display: block;
     border: solid 1px #222;
     margin-top: 210px;
-    max-height: 500px;
-    padding-top: 5px;
+/*    max-height: 500px;*/
+/*    min-height: 400px;*/
+/*    min-height: 500px;*/
+/*    padding-top: 5px;*/
 }
 .empty-height {
     height: 84px;
@@ -499,9 +501,9 @@ h6 {
 .bgb {
     /*    background-color: #181A1B;*/
     background-color: #000;
-    margin-top:210px;
+/*    margin-top:210px;*/
     color: #fff;
-    max-height: 500px;
+/*    max-height: 500px;*/
 }
 .medianew {
     list-style: none;
