@@ -29,28 +29,25 @@ $(".navT").on("click", function () {
     $("#menu").toggleClass("open");
     $(".content").toggleClass("shift");
 })
-consoleText(['make cool websites.', 'build trendy mobile apps', 'enjoy learning.', 'read in spare time', 'like everything zombie related'], 'text', ['#000', '#000', '#000']);
+consoleText(['make cool websites.', 'build trendy mobile apps', 'enjoy learning.', 'read in spare time', 'like everything zombie related'], 'text', '#000');
 
-function consoleText(words, id, colors) {
-    if (colors === undefined) colors = ['#444444'];
+function consoleText(words, id, color) {
+    if (color === undefined) color = '#444444';
     var visible = true;
     var con = document.getElementById('console');
     var letterCount = 1;
     var x = 1;
     var waiting = false;
     var target = document.getElementById(id)
-    target.setAttribute('style', 'color:' + colors[0])
+    target.setAttribute('style', 'color:' + color)
     window.setInterval(function () {
         if (letterCount === 0 && waiting === false) {
             waiting = true;
             target.innerHTML = words[0].substring(0, letterCount)
             window.setTimeout(function () {
-                var usedColor = colors.shift();
-                colors.push(usedColor);
                 var usedWord = words.shift();
                 words.push(usedWord);
                 x = 1;
-                target.setAttribute('style', 'color:' + colors[0])
                 letterCount += x;
                 waiting = false;
             }, 1500)

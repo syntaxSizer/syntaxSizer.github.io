@@ -37,7 +37,7 @@ footer h3 {
     position: fixed;
     background-color: #fff;
     z-index: 4;
-    width: 1350px;
+    width: 100%;
 }
 .height {
     height: 500px;
@@ -349,7 +349,7 @@ h6 {
 }
 .medianew {
     list-style:none;
-    font-size:50px;
+    font-size:30px;
 }
 .medianew a {
     transition:1s;
@@ -367,7 +367,8 @@ h6 {
 }
 .iconin {
     width:7%;
-    height:7%;
+    height:70%;
+/*    float: rightr;  */
     margin-left:750px;
 }
 @media (max-width:980px) {
@@ -542,6 +543,7 @@ h6 {
 }
 .skills {
     color:#fff;
+    text-align: left;
 }
 .dev {
     color:#fff;
